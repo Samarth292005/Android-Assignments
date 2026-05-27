@@ -1,26 +1,4 @@
-package com.example.currencyyconverter;
 
-import android.os.Bundle;
-import android.view.View;
-import android.widget.*;
-import androidx.appcompat.app.AppCompatActivity;
-
-public class MainActivity extends AppCompatActivity {
-
-    EditText amount;
-    Spinner fromCurrency, toCurrency;
-    Button convertBtn;
-    TextView result;
-
-    String[] currencies = {"INR", "USD", "EUR", "JPY"};
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        amount = findViewById(R.id.amount);
-        fromCurrency = findViewById(R.id.fromCurrency);
         toCurrency = findViewById(R.id.toCurrency);
         convertBtn = findViewById(R.id.convertBtn);
         result = findViewById(R.id.result);
