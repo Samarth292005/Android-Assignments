@@ -1,15 +1,6 @@
 
         
-            public );
-
-                String from = fromCurrency.getSelectedItem().toString();
-                String to = toCurrency.getSelectedItem().toString();
-
-                double converted = convertCurrency(from, to, input);
-
-                result.setText("Converted: " + converted);
-            }
-        });
+            
     }
 
     private double convertCurrency(String from, String to, double amount) {
