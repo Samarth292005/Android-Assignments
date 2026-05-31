@@ -1,8 +1,6 @@
 
         
-            public void onClick(View v) {
-
-                double input = Double.parseDouble(amount.getText().toString());
+            public );
 
                 String from = fromCurrency.getSelectedItem().toString();
                 String to = toCurrency.getSelectedItem().toString();
