@@ -1,16 +1,5 @@
 
-        toCurrency = findViewById(R.id.toCurrency);
-        convertBtn = findViewById(R.id.convertBtn);
-        result = findViewById(R.id.result);
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_spinner_dropdown_item, currencies);
-
-        fromCurrency.setAdapter(adapter);
-        toCurrency.setAdapter(adapter);
-
-        convertBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
+        
             public void onClick(View v) {
 
                 double input = Double.parseDouble(amount.getText().toString());
