@@ -3,14 +3,7 @@
             
     }
 
-    private double convertCurrency(String from, String to, double amount) {
-
-        // Convert everything to INR first
-        double inr = 0;
-
-        switch (from) {
-            case "INR": inr = amount; break;
-            case "USD": inr = amount * 83; break;
+    
             case "EUR": inr = amount * 90; break;
             case "JPY": inr = amount * 0.55; break;
         }
